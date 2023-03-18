@@ -1,0 +1,196 @@
+/* .App {
+  text-align: center;
+} */
+
+.card-img-top{
+max-width: 300px !important;
+height: 300px; 
+}
+
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#root > div > nav > div{
+  padding: 0px;
+}
+
+
+/* Login Form Css */
+
+.card{
+  margin-bottom:20px;
+} 
+
+.box {
+  border-radius: 24px;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background: #ffffff;
+  text-align: center;
+  transition: 0.25s;
+  margin-top: 100px;
+  box-shadow: 2px 2px 5px rgb(161, 161, 161)
+}
+
+.box input[type="text"],
+.box input[type="tel"],
+.box input[type="password"],
+.box input[type="number"],
+.box input[type="email"],
+#basic-form > select {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #0097fb;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 24px;
+  transition: 0.25s
+}
+
+.box h1 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 500
+}
+
+.box h3 {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 500;
+  height: 50px;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus,
+.box input[type="number"]:focus,
+.box input[type="email"]:focus,
+#basic-form > select:focus {
+  width: 300px;
+  border-color: #e11a07
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #0097fb;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+  background: #0059ff;
+  color: rgb(255, 255, 255);
+}
+
+.forgot {
+  text-decoration: underline
+}
+
+
+
+.box img{
+  width: 100%;
+  position: relative;
+  height: 200px;
+  border-radius: 5px;
+}
+
+table {
+  width: 800px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: #282c34;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}
+
+#error-form{
+  background-color: #e11a07;
+  color: #ffffff;
+  height: 120px;
+}
+.page-container {
+  background-color: rgba(233, 239, 244, 0.9);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container h1 {
+  color: #4a6fa1;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #4a6fa1;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-container button[type="submit"] {
+  background-color: #4a6fa1;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #365d8c;
+}
