@@ -32,7 +32,7 @@ function NavbarMain(props) {
       
             <Navbar.Collapse className="justify-content-center col-sm-2">
               <Navbar.Text>
-                <h1 className='text-light'>Simpliefied Drilling Simulator</h1>
+                <h1 className='text-light'>Simplified Drilling Simulator</h1>
               </Navbar.Text>
             </Navbar.Collapse>
             <div className=''>
